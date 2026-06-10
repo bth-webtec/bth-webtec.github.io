@@ -1,94 +1,27 @@
 ---
 import { Image } from 'astro:assets';
-const { src, alt, caption, width = 800, height = 400 } = Astro.props;
+const { src, alt, caption } = Astro.props;
 ---
 
-<figure id="imageFigure" style="display: inline-block; cursor: pointer;">
-  <Image 
-    src={src}
-    alt={alt || 'Image description'}
-    width={width}
-    height={height}
-    loading="lazy"
-  />
+<figure>
+  <starlight-image-zoom-zoomable>
+    <Image
+      src={src}
+      alt={alt || caption || 'Image'}
+      width={src.width}
+      height={src.height}
+      loading="lazy"
+    />
+    <button aria-label={`Zoom image${caption ? `: ${caption}` : ''}`} class="starlight-image-zoom-control">
+      <svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+        <use href="#starlight-image-zoom-icon-zoom"></use>
+      </svg>
+    </button>
+  </starlight-image-zoom-zoomable>
   {caption && <figcaption>Bild: {caption}</figcaption>}
 </figure>
 
-<div id="imageModal" style="display:none;">
-  <span id="closeModal" style="position: absolute; top: 20px; right: 20px; font-size: 30px; cursor: pointer;">&times;</span>
-  <img id="modalImage" style="width: 100%; max-width: 100%;" />
-  <div id="caption" style="text-align: center; color: white; padding: 10px;"></div>
-</div>
-
-<script>
-window.addEventListener('load', function() {
-  const figure = document.getElementById("imageFigure");
-  const modal = document.getElementById("imageModal");
-  const modalImg = document.getElementById("modalImage") as HTMLImageElement;
-  const captionText = document.getElementById("caption") as HTMLElement;
-
-  if (figure && modal && modalImg && captionText) {
-    figure.addEventListener("click", function(event: MouseEvent) {
-      const clickedImg = event.target as HTMLImageElement;
-
-      if (clickedImg && modalImg) {
-        modal.style.display = "block";
-        modalImg.src = clickedImg.src;
-
-        const caption = clickedImg.nextElementSibling;
-        if (caption && caption.nodeName === 'FIGCAPTION') {
-          captionText.innerHTML = caption.innerHTML;
-        }
-      }
-    });
-
-    const closeModalButton = document.getElementById("closeModal");
-    if (closeModalButton) {
-      closeModalButton.addEventListener("click", function() {
-        modal.style.display = "none";
-      });
-    }
-
-    window.addEventListener("click", function(event: MouseEvent) {
-      if (event.target === modalImg || event.target === modal) {
-        modal.style.display = "none";
-      }
-    });
-  }
-});
-</script>
-
 <style>
-  #imageModal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1000;
-    display: none;
-    width: 80%;
-    max-width: 900px;
-    max-height: 80%;
-    border-radius: 8px;
-    overflow: hidden;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-
-  #modalImage {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
-
-  #caption {
-    font-size: 20px;
-    color: white;
-    margin-top: 20px;
-  }
-
-
 figure {
   display: inline-block;
   margin: 0;
@@ -110,14 +43,4 @@ figcaption {
   float: left;
   margin-right: 1em;
 }
-/*
-.border {
-  border: 1px solid #999;
-  padding: .5em;
-  border-radius: 10px;
-}
-.shadow {
-  box-shadow: 0.5rem 0.5rem #eee;
-}
-  */
 </style>
