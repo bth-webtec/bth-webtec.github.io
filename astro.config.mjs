@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs';
 import starlight from '@astrojs/starlight';
 import starlightImageZoom from 'starlight-image-zoom'
 
@@ -8,9 +7,6 @@ import starlightImageZoom from 'starlight-image-zoom'
 export default defineConfig({
 	site: 'https://bth-webtec.github.io/',
 	base: '/',
-	markdown: {
-		remarkPlugins: [remarkReadingTime],
-	},
 	integrations: [
 		starlight({
 			plugins: [
