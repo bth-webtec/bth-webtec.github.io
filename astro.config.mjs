@@ -6,8 +6,8 @@ import starlightImageZoom from 'starlight-image-zoom'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://bth-webtec.github.io/website/',
-	base: '/website',
+	site: 'https://bth-webtec.github.io/',
+	base: '/',
 	markdown: {
 		remarkPlugins: [remarkReadingTime],
 	},
@@ -26,11 +26,14 @@ export default defineConfig({
 				'./src/styles/dbwebb.css',
 			],
 			editLink: {
-				baseUrl: 'https://github.com/bth-webtec/website/tree/main',
+				baseUrl: 'https://github.com/bth-webtec/bth-webtec.github.io/tree/main',
 			},
-			social: {
-				github: 'https://github.com/bth-webtec/website',
-			},
+			// social: {
+			// 	github: 'https://github.com/bth-webtec/website',
+			// },
+			social: [
+			  { icon: 'github', label: 'GitHub', href: 'https://github.com/bth-webtec/bth-webtec.github.io' },
+			],
 			head: [
 				{
 				  tag: 'base',
@@ -43,11 +46,18 @@ export default defineConfig({
 				{
 					label: 'Introduktion',
 					collapsed: true,
-					autogenerate: { directory: 'intro' },
+					items: [{ autogenerate: { "directory": "intro" } }]
+					//autogenerate: { directory: 'intro' },
+				},
+				{ 
+					label: 'Labbmiljö',
+					collapsed: true,
+					items: [{ autogenerate: { "directory": "laromaterial/labbmiljo" } }]
 				},
 				{
 					label: 'Kursmoment',
-					autogenerate: { directory: 'kmom' },
+					items: [{ autogenerate: { "directory": "kmom" } }]
+					//autogenerate: { directory: 'kmom' },
 				},
 				{
 					label: 'Läromaterial',
@@ -55,30 +65,35 @@ export default defineConfig({
 					/* autogenerate: { directory: 'laromaterial' }, */
 					items: [
 						'laromaterial',
-						{ 
-							label: 'Labbmiljö',
-							autogenerate: { directory: 'laromaterial/labbmiljo' },
-							collapsed: true,
-						},
+						// { 
+						// 	label: 'Labbmiljö',
+						// 	collapsed: true,
+						// 	//autogenerate: { directory: 'laromaterial/labbmiljo' },
+						// 	items: [{ autogenerate: { "directory": "laromaterial/labbmiljo" } }]
+						// },
 						{ 
 							label: 'Kursrepo',
-							autogenerate: { directory: 'laromaterial/kursrepo' },
 							collapsed: true,
+							//autogenerate: { directory: 'laromaterial/kursrepo' },
+							items: [{ autogenerate: { "directory": "laromaterial/kursrepo" } }]
 						},
 						{ 
 							label: 'Kursrepo utvecklingsmiljö',
-							autogenerate: { directory: 'laromaterial/kursrepo-utvecklingsmiljo' },
 							collapsed: true,
+							//autogenerate: { directory: 'laromaterial/kursrepo-utvecklingsmiljo' },
+							items: [{ autogenerate: { "directory": "laromaterial/kursrepo-utvecklingsmiljo" } }]
 						},
 						{ 
 							label: 'Föreläsning',
-							autogenerate: { directory: 'laromaterial/forelasning' },
 							collapsed: true,
+							//autogenerate: { directory: 'laromaterial/forelasning' },
+							items: [{ autogenerate: { "directory": "laromaterial/forelasning" } }]
 						},
 						{ 
 							label: 'Övning',
-							autogenerate: { directory: 'laromaterial/ovning' },
 							collapsed: true,
+							//autogenerate: { directory: 'laromaterial/ovning' },
+							items: [{ autogenerate: { "directory": "laromaterial/kursrepo-ovning" } }]
 						},
 						{ 
 							label: 'Lab',
@@ -94,20 +109,23 @@ export default defineConfig({
 						},
 						{ 
 							label: 'Uppgift',
-							autogenerate: { directory: 'laromaterial/uppgift' },
 							collapsed: true,
+							//autogenerate: { directory: 'laromaterial/uppgift' },
+							items: [{ autogenerate: { "directory": "laromaterial/uppgift" } }]
 						},
 						{ 
 							label: 'Instruktion',
-							autogenerate: { directory: 'laromaterial/instruktion' },
 							collapsed: true,
+							//autogenerate: { directory: 'laromaterial/instruktion' },
+							items: [{ autogenerate: { "directory": "laromaterial/instruktion" } }]
 						},
 					],
 				},
 				{
 					label: 'Studieguide',
 					collapsed: true,
-					autogenerate: { directory: 'studieguide' },
+					//autogenerate: { directory: 'studieguide' },
+					items: [{ autogenerate: { "directory": "studieguide" } }]
 					/* items: [
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],*/
@@ -115,7 +133,8 @@ export default defineConfig({
 				{
 					label: 'Övrigt',
 					collapsed: true,
-					autogenerate: { directory: 'ovrigt' },
+					//autogenerate: { directory: 'ovrigt' },
+					items: [{ autogenerate: { "directory": "ovrigt" } }]
 				},
 			],
 		}),
