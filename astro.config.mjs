@@ -50,8 +50,15 @@ export default defineConfig({
 					collapsed: true,
 					items: [{ autogenerate: { "directory": "labbmiljo" } }]
 				},
+				{ 
+					label: 'Kursrepo',
+					collapsed: true,
+					items: [{ autogenerate: { "directory": "kursrepo" } }]
+				},
+
 				{
 					label: 'Kursmoment',
+					collapsed: true,
 					items: [{ autogenerate: { "directory": "kmom" } }]
 					//autogenerate: { directory: 'kmom' },
 				},
@@ -67,12 +74,6 @@ export default defineConfig({
 						// 	//autogenerate: { directory: 'labbmiljo' },
 						// 	items: [{ autogenerate: { "directory": "labbmiljo" } }]
 						// },
-						{ 
-							label: 'Kursrepo',
-							collapsed: true,
-							//autogenerate: { directory: 'laromaterial/kursrepo' },
-							items: [{ autogenerate: { "directory": "laromaterial/kursrepo" } }]
-						},
 						{ 
 							label: 'Kursrepo utvecklingsmiljö',
 							collapsed: true,
