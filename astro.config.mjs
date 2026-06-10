@@ -48,7 +48,7 @@ export default defineConfig({
 				{ 
 					label: 'Labbmiljö',
 					collapsed: true,
-					items: [{ autogenerate: { "directory": "laromaterial/labbmiljo" } }]
+					items: [{ autogenerate: { "directory": "labbmiljo" } }]
 				},
 				{
 					label: 'Kursmoment',
@@ -64,8 +64,8 @@ export default defineConfig({
 						// { 
 						// 	label: 'Labbmiljö',
 						// 	collapsed: true,
-						// 	//autogenerate: { directory: 'laromaterial/labbmiljo' },
-						// 	items: [{ autogenerate: { "directory": "laromaterial/labbmiljo" } }]
+						// 	//autogenerate: { directory: 'labbmiljo' },
+						// 	items: [{ autogenerate: { "directory": "labbmiljo" } }]
 						// },
 						{ 
 							label: 'Kursrepo',
