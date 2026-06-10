@@ -335,7 +335,7 @@ $ LAB="lab_01" bash ../download_lab.bash
 Så här är ett kommando för att ladda ned labben till en katalog. Det fungerar p åsamma sätt som ovan, men bash-skriptet laddas ned från github och exekveras lokalt.
 
 ```console title="Ladda ned labben via ett remote skript som exekveras."
-LAB="lab_01" bash <(curl -Ls https://raw.githubusercontent.com/webtec-2024/website/refs/heads/main/src/content/docs/laromaterial/lab/target/download_lab.bash)
+LAB="lab_01" bash <(curl -Ls https://raw.githubusercontent.com/webtec-2024/refs/heads/main/src/content/docs/laromaterial/lab/target/download_lab.bash)
 ```
 
 Detta är nog det enklaste sättet att distribuera en labb och samtidigt hålla nedladdningsskriptet aktuellt och uppdaterat.

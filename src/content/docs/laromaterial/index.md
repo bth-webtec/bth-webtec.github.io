@@ -23,7 +23,7 @@ Här publiceras även större meddelanden rörande kursen.
 
 En stor del av kursmaterialet finns tillgängligt via kurssidan på den öppna webbplatsen för kursen.
 
-* https://webtec-2024.github.io/website/
+* https://webtec-2024.github.io/
 
 
 

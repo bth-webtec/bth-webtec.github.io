@@ -10,7 +10,7 @@ sidebar:
 
 ## Förutsättning
 
-En förutsättning för att du skall kunna jobba genom denna guiden är att du har ett studentkonto på BTH och du har fått [tillgång till kursens organisation på GitHub](/website/laromaterial/labbmiljo/github/).
+En förutsättning för att du skall kunna jobba genom denna guiden är att du har ett studentkonto på BTH och du har fått [tillgång till kursens organisation på GitHub](/laromaterial/labbmiljo/github/).
 
 
 

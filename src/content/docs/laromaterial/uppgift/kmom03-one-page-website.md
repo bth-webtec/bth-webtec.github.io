@@ -14,7 +14,7 @@ Denna uppgift görs som en del av kmom03 och den sätter kraven för den webbpla
 
 Du har genomfört uppgifterna i kmom01 och i kmom02. Denna uppgiften bygger på att de kraven är uppfyllda i din webbplats.
 
-Du har jobbat igenom övningen "[Bygg grunden för en One-page webbplats](/website/laromaterial/ovning/bygg-en-one-page-webbplats)" som ger dig grunden för webbpaltsen du skall bygga.
+Du har jobbat igenom övningen "[Bygg grunden för en One-page webbplats](/laromaterial/ovning/bygg-en-one-page-webbplats)" som ger dig grunden för webbpaltsen du skall bygga.
 
 
 
@@ -108,7 +108,7 @@ Utför följande krav.
 
 1. Din webbplats skall vara tillgänglig via en privat länk på GitHub Pages.
 
-1. När allt är klart och fungerar så gör du en pullrequest (PR) mot branchen `bth/submit/kmom03`. [Läs om hur du gör en PR för kmom03](/website/laromaterial/instruktion/gor-en-pr-for-kmom03)".
+1. När allt är klart och fungerar så gör du en pullrequest (PR) mot branchen `bth/submit/kmom03`. [Läs om hur du gör en PR för kmom03](/laromaterial/instruktion/gor-en-pr-for-kmom03)".
 
 
 

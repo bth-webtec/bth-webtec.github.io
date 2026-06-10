@@ -19,13 +19,13 @@ För att hämta en lab så öppnar du terminalen och går till roten av ditt kur
 # Gå till roten av ditt kursrepo
 
 # Hämta en lab
-bash <(curl -Ls https://raw.githubusercontent.com/bth-webtec/website/refs/heads/main/src/content/docs/laromaterial/lab/download_lab.bash)
+bash <(curl -Ls https://raw.githubusercontent.com/bth-webtec/refs/heads/main/src/content/docs/laromaterial/lab/download_lab.bash)
 ```
 
 Det kan se ut så här när du kör skriptet. Ange en siffra som motsvarar labben du vill ladda ned.
 
 ```bash title="Ladda ned en lab."
-$ bash <(curl -Ls https://raw.githubusercontent.com/bth-webtec/website/refs/heads/main/src/content/docs/laromaterial/lab/download_lab.bash)
+$ bash <(curl -Ls https://raw.githubusercontent.com/bth-webtec/refs/heads/main/src/content/docs/laromaterial/lab/download_lab.bash)
 What lab do you want to get? (1, 2, 3 or 4): 1
 Great! I will download lab_01 into the directory 'lab/lab_01'.
 ✅ lab/lab_01/README.md

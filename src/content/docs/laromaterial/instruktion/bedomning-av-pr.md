@@ -11,7 +11,7 @@ Detta dokument beskriver hur bedömning och betygsättning sker vid en inlämnin
 
 ## Om deadline
 
-Det finns ett eget dokument som berättar [hur deadlines fungerar](/website/studieguide/deadline/) i denna kursen.
+Det finns ett eget dokument som berättar [hur deadlines fungerar](/studieguide/deadline/) i denna kursen.
 
 Om du missar en deadline så kan du inte räkna med att det blir rättat. Men det går bra att lämna in, eller få rättat, vid nästa ordinarie inlämningstillfälle.
 
@@ -21,7 +21,7 @@ Om du missar en deadline så kan du inte räkna med att det blir rättat. Men de
 
 I samband med att din inlämning bedöms så körs ett antal automatiserade tester som kontrollerar att din inlämning uppfyller alla krav i de kmom som inlämningen omfattar.
 
-Du kan själv installera verktyget som kör dessa tester så att du kan köra dem själv, innan läraren gör det. Läs mer om hur du installerar och använder verktyget i "[Automatiserade tester](/website/laromaterial/instruktion/automatiserade-tester/)".
+Du kan själv installera verktyget som kör dessa tester så att du kan köra dem själv, innan läraren gör det. Läs mer om hur du installerar och använder verktyget i "[Automatiserade tester](/laromaterial/instruktion/automatiserade-tester/)".
 
 
 
@@ -69,12 +69,12 @@ På detta viset försöker vi hitta ett sätt att ge studenten den feedback som 
 
 ## Kursens slutbetyg
 
-Det finns ett eget dokument som beskriver [hur kursens slutbetyg sätts](https://bth-webtec.github.io/website/intro/bedomning-och-betygsattning/) och vilka bedömningskriterier som ligger bakom.
+Det finns ett eget dokument som beskriver [hur kursens slutbetyg sätts](https://bth-webtec.github.io/intro/bedomning-och-betygsattning/) och vilka bedömningskriterier som ligger bakom.
 
 
 
 ## Poäng till Ladok
 
-Det finns ett eget dokument som beskriver hur kursens olika [delmoment och inlämningar mappar mot moment i ladok](/website/intro/ladok/).
+Det finns ett eget dokument som beskriver hur kursens olika [delmoment och inlämningar mappar mot moment i ladok](/intro/ladok/).
 
 När du har fått godkänt på ett moment som ger poäng i Ladok så rapporteras det in till Ladok inom ett par dagar, ofta i slutet av rättningsperioden när sista inlämningen är rättad.
