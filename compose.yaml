@@ -1,0 +1,5 @@
+services:
+  webtec:
+    build: .
+    ports:
+      - "4321:80"
