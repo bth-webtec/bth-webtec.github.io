@@ -1,8 +1,8 @@
 ---
-title: "Om läromaterial" 
+title: "Läromaterial" 
 description: Vad finns det för läromaterial i kursen.
 sidebar:
-    order: 0000
+    order: 165
 ---
 
 Följande visar hur kursens läromaterial är uppdelat och publicerat samt vilka verktyg som används vid undervisningen.
@@ -23,7 +23,7 @@ Här publiceras även större meddelanden rörande kursen.
 
 En stor del av kursmaterialet finns tillgängligt via kurssidan på den öppna webbplatsen för kursen.
 
-* https://webtec-2024.github.io/
+* https://bth-webtec.github.io/
 
 
 
@@ -31,7 +31,7 @@ En stor del av kursmaterialet finns tillgängligt via kurssidan på den öppna w
 
 Kursmaterial och inlämningar sker delvis via Git-repon och GitHub. Kursen har en organisation på GitHub.
 
-* https://github.com/webtec-2024/
+* https://github.com/bth-webtec/
 
 
 

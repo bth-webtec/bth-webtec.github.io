@@ -1,9 +1,8 @@
 ---
-title: "Bygg en responsiv webbplats (kmom02)" 
+title: "Uppgift: Bygg en responsiv webbplats" 
 description: Uppgift att bygga en responsiv webbplats i kmom02.
 sidebar:
-    order: 0020
-    # hidden: true
+    order: 900
 ---
 
 Denna uppgift görs som en del av kmom02 och den sätter kraven för den webbplats du skall bygga.

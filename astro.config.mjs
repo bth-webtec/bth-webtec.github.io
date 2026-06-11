@@ -56,7 +56,7 @@ export default defineConfig({
 					items: [{ autogenerate: { "directory": "kursrepo" } }]
 				},
 				{
-					label: 'Kmom01',
+					label: 'Kursmoment 01',
 					collapsed: true,
 					items: [
 						'kmom01',
@@ -77,6 +77,58 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Kursmoment 02',
+					collapsed: true,
+					items: [
+						'kmom02',
+						'kmom02/introduktion-till-css',
+						'kmom02/responsiv-webbdesign',
+						'kmom02/lab_02',
+						'kmom02/responsiv',
+					],
+				},
+				{
+					label: 'Kursmoment 03',
+					collapsed: true,
+					items: [
+						'kmom03',
+						'kmom03/lab_03',
+						'kmom03/one-page-website',
+					],
+				},
+				{
+					label: 'Kursmoment 04',
+					collapsed: true,
+					items: [
+						'kmom04',
+						'kmom04/lab_04',
+						'kmom04/dom',
+					],
+				},
+				{
+					label: 'Kursmoment 05',
+					collapsed: true,
+					items: [
+						'kmom05',
+						'kmom05/fetch',
+					],
+				},
+				{
+					label: 'Kursmoment 06',
+					collapsed: true,
+					items: [
+						'kmom06',
+						'kmom06/duckhunt',
+					],
+				},
+				{
+					label: 'Kursmoment 07/10',
+					collapsed: true,
+					items: [
+						'kmom10',
+					],
+				},
+				{
 					label: 'Studieguide',
 					collapsed: true,
 					//autogenerate: { directory: 'studieguide' },
@@ -84,11 +136,6 @@ export default defineConfig({
 					/* items: [
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],*/
-				},
-				{
-					label: 'Kursmoment (old)',
-					collapsed: true,
-					items: [{ autogenerate: { "directory": "kmom" } }]
 				},
 				{
 					label: 'Övrigt (old?)',
@@ -101,7 +148,7 @@ export default defineConfig({
 					collapsed: true,
 					/* autogenerate: { directory: 'laromaterial' }, */
 					items: [
-						'laromaterial',
+						//'laromaterial',
 						// { 
 						// 	label: 'Labbmiljö',
 						// 	collapsed: true,
@@ -114,11 +161,11 @@ export default defineConfig({
 							//autogenerate: { directory: 'laromaterial/kursrepo-utvecklingsmiljo' },
 							items: [{ autogenerate: { "directory": "laromaterial/kursrepo-utvecklingsmiljo" } }]
 						},
-						{
-							label: 'Föreläsning',
-							collapsed: true,
-							items: [{ autogenerate: { "directory": "forelasning" } }]
-						},
+						// {
+						// 	label: 'Föreläsning',
+						// 	collapsed: true,
+						// 	items: [{ autogenerate: { "directory": "forelasning" } }]
+						// },
 						{
 							label: 'Övning',
 							collapsed: true,

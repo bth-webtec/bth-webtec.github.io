@@ -8,7 +8,7 @@ sidebar:
     order: 500
 ---
 
-I denna övningen får du träna på att programmera med grunderna i programmeringsspråket JavaScript med siffror, boolean, strängar och några inbyggda metoder.
+I denna laboration får du träna på att programmera med grunderna i programmeringsspråket JavaScript med siffror, boolean, strängar och några inbyggda metoder.
 
 <!--
 TODO

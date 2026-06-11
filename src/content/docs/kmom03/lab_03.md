@@ -1,15 +1,14 @@
 ---
-title: Lab 04
+title: "Lab 03: JavaScript med mer kontrollstrukturer"
+description: Laboration med små programmeringsövningar.
 revision:
     "2025-04-29": "(B, klw) Second version."
     "2024-10-09": "(A, mos) First version."
+sidebar:
+    order: 500
 ---
 
-
-Lab: JavaScript och arrayer
-===========================
-
-I denna laboration får du träna på strukturen array i JavaScript och du får använda inbyggda metoder för att hantera dem.
+I denna laboration får du träna på konceptet loop i JavaScript och du får använda for-loop och while-loop.
 
 <!-- [[_TOC_]] -->
 
@@ -39,10 +38,10 @@ Så här laddar du ned labben med terminalen till ditt kursrepo.
 # Gå till roten av ditt kursrepo
 
 # Hämta en lab
-bash <(curl -Ls https://raw.githubusercontent.com/bth-webtec/refs/heads/main/src/content/docs/laromaterial/lab/download_lab.bash)
+bash <(curl -Ls https://raw.githubusercontent.com/bth-webtec/refs/heads/main/lab/download_lab.bash)
 ```
 
-**Ange siffran 4 för att hämta lab_04.**
+**Ange siffran 3 för att hämta lab_03.**
 
 När nedladdningen är klar kan du gå till katalogen för labben och köra den så här.
 
@@ -50,4 +49,4 @@ När nedladdningen är klar kan du gå till katalogen för labben och köra den 
 node lab
 ```
 
-Läs mer om hur [labben och labbverktyget fungerar](https://bth-webtec.github.io/laromaterial/lab/).
+Läs mer om hur [labben och labbverktyget fungerar](/studieguide/lab/).
