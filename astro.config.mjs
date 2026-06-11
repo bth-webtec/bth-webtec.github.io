@@ -55,7 +55,12 @@ export default defineConfig({
 					collapsed: true,
 					items: [{ autogenerate: { "directory": "kursrepo" } }]
 				},
-
+				{
+					label: 'Kmom01',
+					collapsed: true,
+					items: [{ autogenerate: { "directory": "kmom01" } }]
+					//autogenerate: { directory: 'kmom' },
+				},
 				{
 					label: 'Kursmoment',
 					collapsed: true,
@@ -80,17 +85,15 @@ export default defineConfig({
 							//autogenerate: { directory: 'laromaterial/kursrepo-utvecklingsmiljo' },
 							items: [{ autogenerate: { "directory": "laromaterial/kursrepo-utvecklingsmiljo" } }]
 						},
-						{ 
+						{
 							label: 'Föreläsning',
 							collapsed: true,
-							//autogenerate: { directory: 'laromaterial/forelasning' },
-							items: [{ autogenerate: { "directory": "laromaterial/forelasning" } }]
+							items: [{ autogenerate: { "directory": "forelasning" } }]
 						},
-						{ 
+						{
 							label: 'Övning',
 							collapsed: true,
-							//autogenerate: { directory: 'laromaterial/ovning' },
-							items: [{ autogenerate: { "directory": "laromaterial/ovning" } }]
+							items: [{ autogenerate: { "directory": "ovning" } }]
 						},
 						{ 
 							label: 'Lab',
@@ -104,11 +107,10 @@ export default defineConfig({
 								'laromaterial/lab/readme',
 							],
 						},
-						{ 
+						{
 							label: 'Uppgift',
 							collapsed: true,
-							//autogenerate: { directory: 'laromaterial/uppgift' },
-							items: [{ autogenerate: { "directory": "laromaterial/uppgift" } }]
+							items: [{ autogenerate: { "directory": "uppgift" } }]
 						},
 						{ 
 							label: 'Instruktion',
