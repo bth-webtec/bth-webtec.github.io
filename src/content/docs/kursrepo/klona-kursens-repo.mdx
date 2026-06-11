@@ -1,0 +1,72 @@
+---
+title: "Klona kursens repo" 
+description: Klona ditt eget kursrepo för kursen.
+author: mos
+revision:
+    "2026-06-10": "(B, mos) Kopierat från databas-kursen."
+    "2025-06-24": "(A, mos) Första utkastet."
+sidebar:
+    order: 0030
+---
+
+import Figure from '@components/CustomFigure.astro';
+import YouTube from '@components/YouTube.astro';
+
+När du blev inbjuden till kursens organisation så skapades också ett kursrepo till dig. Kursrepot innehåller en katalogstruktur och delar av en utvecklingsmiljö som hjälper dig igenom kursen och som är viktig för att göra inlämningar.
+
+I ditt kursrepo kommer du att spara allt det arbete du gör i kursen och du kommer använda det för att redovisa ditt arbete.
+
+
+
+## Klona ditt kursrepo
+
+Du når ditt eget kursrepo via kursens organisation på GitHub.
+
+* https://github.com/bth-webtec
+
+Leta reda på ett repo som heter `databas-xxxx##` där `xxxx##` är ditt studentkonto med fyra tecken och två siffror, tex abcd26 eller motsvarande.
+
+Det är bara du själv och lärarna i kursen som har tillgång till repot.
+
+Börja med att klona ditt repo till din lokala dator.
+
+```bash title="Klona ett kursrepo"
+# Gå till katalogen för dbwebb-kurser
+
+# Klona repot via ssh, byt ut xxxx## mot din studentakronym
+git clone git@github.com:bth-databas/databas-xxxx##.git
+```
+
+Nu kan du flytta in i katalogen för ditt repo, tex så här.
+
+```bash title="Flytta in till kursrepot"
+# Flytta in i kursrepot, byt ut xxxx## mot din studentakronym
+cd databas-xxxx##
+
+# Titta vilka filer som finns i repot
+ls -la
+tree .
+```
+
+Öppna upp repot i vscode.
+
+```bash title="Öppna repot i vscode"
+# Öppna nuvarande katalog i vscode
+code .
+```
+
+Gör en mindre ändring i README-filen och pusha upp ändringen till GitHub för att verifiera att du har tillgång till repo.
+
+```bash title="Gör commit på din ändring"
+# Efter att du har redigerat din README.md
+git status
+
+git commit -a -m "Verify I have read/write access to the repo"
+git push
+
+git status
+```
+
+Kontroller att filen ändrades på GitHub.
+
+Nu har du kontroll på ditt eget kursrepo och kan börja att jobba.

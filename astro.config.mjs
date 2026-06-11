@@ -90,7 +90,7 @@ export default defineConfig({
 							label: 'Övning',
 							collapsed: true,
 							//autogenerate: { directory: 'laromaterial/ovning' },
-							items: [{ autogenerate: { "directory": "laromaterial/kursrepo-ovning" } }]
+							items: [{ autogenerate: { "directory": "laromaterial/ovning" } }]
 						},
 						{ 
 							label: 'Lab',

@@ -8,7 +8,6 @@ sidebar:
     order: 0000
 ---
 
-## Förutsättning
 
 En förutsättning för att du skall kunna jobba genom denna guiden är att du har ett studentkonto på BTH och du har fått [tillgång till kursens organisation på GitHub](/labbmiljo/github/).
 
@@ -22,11 +21,8 @@ I denna guiden får du hjälp med:
 
 1. Skapa en katalogstruktur där du kan jobba med kursens material.
 
-1. Skapa en katalog och ett Git repo där du sparar allt ditt material.
+1. Autentisering mot GitHub med ssh-nycklar.
 
-1. Skapa en plats på GitHub, i kursens organisation, dit du kan ladda upp ditt repo.
+1. Hitta och klona ditt för-skapade Git repo (kursrepo) där du sparar allt ditt material i kursen.
 
-1. Visa hur du kan authenticera dig mot GitHub med ssh-nycklar.
-
-
-I kursen kommer vi att referera till dit git repo som ditt "kursrepo".
+I kursen kommer vi att referera till ditt git repo som ditt "kursrepo".
