@@ -5,12 +5,13 @@ description: Historiska versioner av kurs och kursmaterial.
 
 Om du påbörjat den äldre version av kursen så skall du också slutföra denna versionen av kursen eller göra om den nya kursen från start. Alternativt rådgör du med den som är kursansvarig.
 
-<!--
-Från och med hösten 2025 finner du kursens webbplats på [XXX](...).
--->
+Från och med hösten 2026 finner du kursens webbplats på [bth-webtec.github.io](https://bth-webtec.github.io/).
+
 
 
 ## Kursmaterial
+
+Hösten 2025 fanns webbplatsen på https://bth-webtec.github.io/website men det är från hösten 2026 ändrad till https://bth-webtec.github.io/. I repot där denna webbplats finns så finne en tagg `2025` som kan användas för att via docker köra igång den äldre webbplatsen.
 
 För tillfället från och med höstterminen 2022 fram till och med höstterminen 2024 så [finns kursmaterialet till webtec (v2) här](http://dbwebb.se/kurser/webtec-v2).
 

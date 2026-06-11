@@ -43,7 +43,6 @@ export default defineConfig({
 					label: 'Introduktion',
 					collapsed: true,
 					items: [{ autogenerate: { "directory": "intro" } }]
-					//autogenerate: { directory: 'intro' },
 				},
 				{ 
 					label: 'Labbmiljö',
@@ -67,11 +66,7 @@ export default defineConfig({
 							collapsed: true,
 							items: [{ autogenerate: { directory: 'kmom01/skapa-en-webbsida-med-html-css-och-javascript' } }],
 						},
-						{
-							label: 'Övning: Kom igång med JavaScript',
-							collapsed: true,
-							items: [{ autogenerate: { directory: 'kmom01/kom-igang-med-javascript' } }],
-						},
+						'kmom01/js-builtin-types',
 						'kmom01/lab_01',
 						'kmom01/bygg-webbplats',
 					],
@@ -83,6 +78,12 @@ export default defineConfig({
 						'kmom02',
 						'kmom02/introduktion-till-css',
 						'kmom02/responsiv-webbdesign',
+						{
+							label: 'Övning: Bygg en responsiv webbplats',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'kmom02/bygg-en-responsiv-webbplats' } }],
+						}, 
+						'kmom02/js-common-structures-1',
 						'kmom02/lab_02',
 						'kmom02/responsiv',
 					],
@@ -92,6 +93,12 @@ export default defineConfig({
 					collapsed: true,
 					items: [
 						'kmom03',
+						{
+							label: 'Övning: Bygg en One-page webbplats',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'kmom03/bygg-en-one-page-webbplats' } }],
+						},
+						'kmom03/js-common-structures-2',
 						'kmom03/lab_03',
 						'kmom03/one-page-website',
 					],
@@ -101,6 +108,12 @@ export default defineConfig({
 					collapsed: true,
 					items: [
 						'kmom04',
+						{
+							label: 'Övning: Mera JavaScript',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'kmom04/mera-javascript' } }],
+						},
+						'kmom04/python-to-js',
 						'kmom04/lab_04',
 						'kmom04/dom',
 					],
@@ -110,6 +123,11 @@ export default defineConfig({
 					collapsed: true,
 					items: [
 						'kmom05',
+						{
+							label: 'Övning: Fetch API och async/await',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'kmom05/fetch-api' } }],
+						},
 						'kmom05/fetch',
 					],
 				},
@@ -118,11 +136,17 @@ export default defineConfig({
 					collapsed: true,
 					items: [
 						'kmom06',
+						{
+							label: 'Övning: JavaScript objekt och fetch',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'kmom06/object-och-mer-fetch' } }],
+						},
+						'kmom06/form-elements',
 						'kmom06/duckhunt',
 					],
 				},
 				{
-					label: 'Kursmoment 07/10',
+					label: 'Kursmoment 10',
 					collapsed: true,
 					items: [
 						'kmom10',
@@ -131,71 +155,19 @@ export default defineConfig({
 				{
 					label: 'Studieguide',
 					collapsed: true,
-					//autogenerate: { directory: 'studieguide' },
 					items: [{ autogenerate: { "directory": "studieguide" } }]
-					/* items: [
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],*/
 				},
 				{
-					label: 'Övrigt (old?)',
+					label: 'Övrigt',
 					collapsed: true,
-					//autogenerate: { directory: 'ovrigt' },
 					items: [{ autogenerate: { "directory": "ovrigt" } }]
 				},
-				{
-					label: 'Läromaterial (old)',
-					collapsed: true,
-					/* autogenerate: { directory: 'laromaterial' }, */
-					items: [
-						//'laromaterial',
-						// { 
-						// 	label: 'Labbmiljö',
-						// 	collapsed: true,
-						// 	//autogenerate: { directory: 'labbmiljo' },
-						// 	items: [{ autogenerate: { "directory": "labbmiljo" } }]
-						// },
-						{ 
-							label: 'Kursrepo utvecklingsmiljö',
-							collapsed: true,
-							//autogenerate: { directory: 'laromaterial/kursrepo-utvecklingsmiljo' },
-							items: [{ autogenerate: { "directory": "laromaterial/kursrepo-utvecklingsmiljo" } }]
-						},
-						// {
-						// 	label: 'Föreläsning',
-						// 	collapsed: true,
-						// 	items: [{ autogenerate: { "directory": "forelasning" } }]
-						// },
-						{
-							label: 'Övning',
-							collapsed: true,
-							items: [{ autogenerate: { "directory": "ovning" } }]
-						},
-						// { 
-						// 	label: 'Lab',
-						// 	collapsed: true,
-						// 	items: [
-						// 		'laromaterial/lab',
-						// 		//'laromaterial/lab/lab_01/readme',
-						// 		'laromaterial/lab/lab_02/readme',
-						// 		'laromaterial/lab/lab_03/readme',
-						// 		'laromaterial/lab/lab_04/readme',
-						// 		'laromaterial/lab/readme',
-						// 	],
-						// },
-						{
-							label: 'Uppgift',
-							collapsed: true,
-							items: [{ autogenerate: { "directory": "uppgift" } }]
-						},
-						{ 
-							label: 'Instruktion',
-							collapsed: true,
-							//autogenerate: { directory: 'laromaterial/instruktion' },
-							items: [{ autogenerate: { "directory": "laromaterial/instruktion" } }]
-						},
-					],
-				},
+				// { 
+				// 	label: 'Kursrepo utvecklingsmiljö',
+				// 	collapsed: true,
+				// 	//autogenerate: { directory: 'laromaterial/kursrepo-utvecklingsmiljo' },
+				// 	items: [{ autogenerate: { "directory": "laromaterial/kursrepo-utvecklingsmiljo" } }]
+				// },
 			],
 		}),
 	],

@@ -2,7 +2,7 @@
 title: "Bedömning av PR" 
 description: Hur sker bedömning och betygsättning vid inlämning av PR.
 sidebar:
-    order: 0050
+    order: 0850
 ---
 
 Detta dokument beskriver hur bedömning och betygsättning sker vid en inlämning som sker med en PR på GitHub.
@@ -11,7 +11,7 @@ Detta dokument beskriver hur bedömning och betygsättning sker vid en inlämnin
 
 ## Om deadline
 
-Det finns ett eget dokument som berättar [hur deadlines fungerar](/studieguide/deadline/) i denna kursen.
+Det finns ett eget dokument som berättar [hur deadlines fungerar](../deadline/) i denna kursen.
 
 Om du missar en deadline så kan du inte räkna med att det blir rättat. Men det går bra att lämna in, eller få rättat, vid nästa ordinarie inlämningstillfälle.
 
@@ -21,7 +21,7 @@ Om du missar en deadline så kan du inte räkna med att det blir rättat. Men de
 
 I samband med att din inlämning bedöms så körs ett antal automatiserade tester som kontrollerar att din inlämning uppfyller alla krav i de kmom som inlämningen omfattar.
 
-Du kan själv installera verktyget som kör dessa tester så att du kan köra dem själv, innan läraren gör det. Läs mer om hur du installerar och använder verktyget i "[Automatiserade tester](/laromaterial/instruktion/automatiserade-tester/)".
+Du kan själv installera verktyget som kör dessa tester så att du kan köra dem själv, innan läraren gör det. Läs mer om hur du installerar och använder verktyget i "[Automatiserade tester](../automatiserade-tester/)".
 
 
 
@@ -53,7 +53,7 @@ Vanligtvis gäller att du får en möjlighet att komplettera, om det inte lyckas
 
 ### Underkänd U / F
 
-Om din inlämning bedöms saknr delar, eller inte uppfylla alla kraven, och komplettering känns inte som ett alternativ, då sätter läraren betyget U (kmom03, kmom06) eller F (kmom10) vilket ger din inlämning ett underkänt betyg.
+Om din inlämning bedöms saknar delar, eller inte uppfylla alla kraven, och komplettering känns inte som ett alternativ, då sätter läraren betyget U (kmom03, kmom06) eller F (kmom10) vilket ger din inlämning ett underkänt betyg.
 
 Då får då möjlighet att göra en ny inlämning till nästa ordinarie inlämningstillfälle.
 
@@ -69,7 +69,7 @@ På detta viset försöker vi hitta ett sätt att ge studenten den feedback som 
 
 ## Kursens slutbetyg
 
-Det finns ett eget dokument som beskriver [hur kursens slutbetyg sätts](https://bth-webtec.github.io/intro/bedomning-och-betygsattning/) och vilka bedömningskriterier som ligger bakom.
+Det finns ett eget dokument som beskriver [hur kursens slutbetyg sätts](/intro/bedomning-och-betygsattning/) och vilka bedömningskriterier som ligger bakom.
 
 
 

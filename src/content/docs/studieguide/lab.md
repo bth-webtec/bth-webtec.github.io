@@ -1,5 +1,5 @@
 ---
-title: "Om labbar" 
+title: "Labbar" 
 description: Laborationer som läromedel.
 sidebar:
     order: 0100

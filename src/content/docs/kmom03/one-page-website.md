@@ -13,7 +13,7 @@ Denna uppgift görs som en del av kmom03 och den sätter kraven för den webbpla
 
 Du har genomfört uppgifterna i kmom01 och i kmom02. Denna uppgiften bygger på att de kraven är uppfyllda i din webbplats.
 
-Du har jobbat igenom övningen "[Bygg grunden för en One-page webbplats](./bygg-en-one-page-webbplats)" som ger dig grunden för webbplatsen du skall bygga.
+Du har jobbat igenom övningen "[Bygg grunden för en One-page webbplats](../bygg-en-one-page-webbplats)" som ger dig grunden för webbplatsen du skall bygga.
 
 
 

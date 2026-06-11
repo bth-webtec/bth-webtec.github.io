@@ -11,7 +11,7 @@ Denna uppgift görs som en del av kmom02 och den sätter kraven för den webbpla
 
 ## Förutsättning
 
-Du har genomfört kmom01 och du har genomfört övningen "[Bygg en responsiv webbplats](/ovning/bygg-en-responsiv-webbplats)".
+Du har genomfört kmom01 och du har genomfört övningen "[Bygg en responsiv webbplats](../bygg-en-responsiv-webbplats)".
 
 
 

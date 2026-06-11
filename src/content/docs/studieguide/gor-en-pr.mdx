@@ -1,26 +1,25 @@
 ---
-title: "Gör en PR (kmom10)"
-description: Instruktion om hur du gör en pull request (PR) för att lämna in kmom10.
+title: "Gör en Pull Request (PR)" 
+description: Instruktion om hur du gör en pull request (PR) för att lämna in kmom03, kmom06 och kmom10.
 sidebar:
-    order: 0038
+    order: 0820
     # hidden: true
 ---
 
 import Figure from '@components/CustomFigure.astro';
 import YouTube from '@components/YouTube.astro';
 
-:::danger
-Bilderna i denna artikel refererar till kmom03 och inte till kmom10.
-:::
 
 
-Följ denna instruktionen för att göra en pull request (PR) för att lämna in uppgiften i kmom10.
+Följ denna instruktionen för att göra en pull request (PR) för att lämna in uppgiften i kmom03 (kmom06, kmom10).
+
+Denna artikel visar hur du gör din första PR i kmom03. Därefter, i kmom06 och kmom10, gör du på samma sätt, men du byter ut "kmom03" mot det kmom du jobbar med.
 
 
 
 ## Förutsättning
 
-Du har uppfyllt kraven i uppgiften kmom10.
+Du har uppfyllt kraven i uppgiften kmom03 eller kmom06 eller kmom10.
 
 
 
@@ -36,7 +35,7 @@ I samband med att du gör din PR så intygar du att arbetet är ditt eget och up
 
 Du skall nu göra din inlämning som en PR mot följande branch.
 
-* `bth/submit/kmom10`
+* `bth/submit/kmom03`
 
 Följ stegen nedan för att skapa en PR.
 
@@ -85,17 +84,17 @@ import pr3 from '@assets/pr/pr3.png';
 
 Nu skall du välja vilken branch du vill skapa en PR mot. 
 
-Din "base" skall vara `bth/submit/kmom10` (1 i bilden).
+Din "base" skall vara `bth/submit/kmom03` (1 i bilden).
 
 Din "compare" skall vara `main` (2 i bilden).
 
-Det betyder att du vill merga `main` in till `bth/submit/kmom10`.
+Det betyder att du vill merga `main` in till `bth/submit/kmom03`.
 
 import pr4 from '@assets/pr/pr4.png';
 
 <Figure 
     src={pr4}
-    caption="Gör en PR för att merga main in till bth/submit/kmom10."
+    caption="Gör en PR för att merga main in till bth/submit/kmom03."
 />
 
 
@@ -108,12 +107,12 @@ import pr5 from '@assets/pr/pr5.png';
 
 <Figure 
     src={pr5}
-    caption="Gör en PR för att merga main in till bth/submit/kmom10."
+    caption="Gör en PR för att merga main in till bth/submit/kmom03."
 />
 
 Nu skall du fylla i detaljer om din PR (se de gröna runda markeringarna i bilden ovan).
 
-Som **titel** skriver du "Inlämning av kmom10"
+Som **titel** skriver du "Inlämning av kmom03"
 
 I **beskrivningen** lägger du till länken till din webbplats på GitHub Pages.
 
@@ -125,12 +124,6 @@ Nu kan du lägga till din PR genom att klicka knappen "Create pull request".
 
 
 
-### Lägg till presentationsvideo
-
-Om/när du skall lägga till en presentationsvideo så lägger du länken till din video i din kommentar till din MR. Enklast är om du redigerar din kommentar där du har länken till din GitHub Pages och lägger länken till din video där.
-
-
-
 ### En ny PR är öppnad
 
 När det är klart kan det se ut så här.
@@ -139,7 +132,7 @@ import pr6 from '@assets/pr/pr6.png';
 
 <Figure 
     src={pr6}
-    caption="Gör en PR för att merga main in till bth/submit/kmom10."
+    caption="Gör en PR för att merga main in till bth/submit/kmom03."
 />
 
 
@@ -150,6 +143,6 @@ När läraren rättar din PR så får du återkoppling i kommentarer till din PR
 
 När den är godkänd kommer din PR att få label "approved" och du kommer också se vem som har varit "reviewer".
 
-Det är reviewern som mergar och stänger din PR när den är godkänd.
+Det är reviewer som mergar och stänger din PR när den är godkänd.
 
 När allt är klart kommer betyget att finnas i kurstillfället i Canvas och det kommer att överföras till Ladok.
