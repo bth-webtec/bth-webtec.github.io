@@ -23,3 +23,4 @@ pnpm-debug.log*
 # Other
 work/
 old/
+webtec-*/

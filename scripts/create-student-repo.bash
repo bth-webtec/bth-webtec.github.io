@@ -51,5 +51,8 @@ for KMOM in kmom03 kmom06 kmom10; do
     echo "==> Created branch ${BRANCH}"
 done
 
+cd ..
+rm -rf "${CLONE_DIR}"
+
 echo ""
 echo "Done! Repo: https://github.com/${NEW_REPO}"
