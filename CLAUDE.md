@@ -21,29 +21,31 @@ npm run preview  # Förhandsgranska bygget
 
 ```
 astro.config.mjs          # Sidopanel, plugins, config
+lab/                      # Labbfiler (lab_01–lab_04, JavaScript)
 src/
   assets/                 # Bilder och statiska filer
   components/             # CustomFigure.astro, YouTube.astro
   styles/dbwebb.css       # Anpassad CSS
-  plugins/                # remark-reading-time.mjs
   content/docs/
     index.mdx             # Startsidan
     intro/                # Kursplan, lärarteam, studieplan, bedömning
-    kmom/                 # Kursmomenten kmom01–kmom10
-    laromaterial/
-      forelasning/        # Inspelade föreläsningar
-      labbmiljo/          # Installationsguider (terminal, git, node, etc.)
-      kursrepo/           # Skapa och konfigurera kursrepo
-      kursrepo-utvecklingsmiljo/  # Dev-miljö i kursrepo (eslint, editorconfig etc.)
-      ovning/             # Övningar kopplade till kmom
-      lab/                # Laborationer lab_01–lab_04 (JavaScript)
-      uppgift/            # Uppgiftsbeskrivningar per kmom
-      instruktion/        # Redovisning, PR-instruktioner, etc.
-    studieguide/          # AI, deadline, dialog, fusk
+    labbmiljo/            # Installationsguider (terminal, git, node, etc.)
+    kursrepo/             # Klona och konfigurera kursrepo, ssh-nycklar
+    kmom01/               # Kmom + föreläsningar, övningar, uppgift för kmom01
+    kmom02/               # Kmom + föreläsningar, övningar, uppgift för kmom02
+    kmom03/               # ...och så vidare för kmom03–kmom10
+    kmom04/
+    kmom05/
+    kmom06/
+    kmom10/
+    laromaterial/         # Kursrepo-inlämning, övrigt stödmaterial
+    studieguide/          # AI, deadline, dialog, fusk, redovisning, PR-instruktioner
     ovrigt/               # Övrigt
 ```
 
-Sidopanelens struktur konfigureras i `astro.config.mjs` (autogenerate från kataloger).
+Varje kmom-katalog innehåller kursmomentet (index.mdx) och allt tillhörande material (föreläsningar, övningar, uppgift, lab) direkt under samma katalog eller i underkataloger.
+
+Sidopanelens struktur konfigureras i `astro.config.mjs`. Kmom-sektioner använder manuella `items`-listor (inte autogenerate) för att styra ordning och gruppering av övningsunderkataloger.
 
 ## Kursstruktur
 
