@@ -2,10 +2,10 @@
 title: "Om labbar" 
 description: Laborationer som läromedel.
 sidebar:
-    order: 0000
+    order: 0100
 ---
 
-Labbar, eller laborationer, är övningar som är del i kursmoment och sytar till att träna dig inför att lösa uppgifter eller för att förstå och träna på de koncept som kursen innehåller.
+Labbar, eller laborationer, är övningar som är del i kursmoment och syftar till att träna dig inför att lösa uppgifter eller för att förstå och träna på de koncept som kursen innehåller.
 
 Se instruktionen för kursmomenten för att se vilket kmom som innehåller vilken lab.
 

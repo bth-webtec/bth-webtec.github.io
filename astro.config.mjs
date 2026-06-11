@@ -58,17 +58,46 @@ export default defineConfig({
 				{
 					label: 'Kmom01',
 					collapsed: true,
-					items: [{ autogenerate: { "directory": "kmom01" } }]
-					//autogenerate: { directory: 'kmom' },
+					items: [
+						'kmom01',
+						'kmom01/introduktion-till-webbteknologier',
+						'kmom01/introduktion-till-html',
+						{
+							label: 'Övning: Skapa en webbsida med HTML, CSS och JavaScript',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'kmom01/skapa-en-webbsida-med-html-css-och-javascript' } }],
+						},
+						{
+							label: 'Övning: Kom igång med JavaScript',
+							collapsed: true,
+							items: [{ autogenerate: { directory: 'kmom01/kom-igang-med-javascript' } }],
+						},
+						'kmom01/lab_01',
+						'kmom01/bygg-webbplats',
+					],
 				},
 				{
-					label: 'Kursmoment',
+					label: 'Studieguide',
+					collapsed: true,
+					//autogenerate: { directory: 'studieguide' },
+					items: [{ autogenerate: { "directory": "studieguide" } }]
+					/* items: [
+						{ label: 'Example Guide', slug: 'guides/example' },
+					],*/
+				},
+				{
+					label: 'Kursmoment (old)',
 					collapsed: true,
 					items: [{ autogenerate: { "directory": "kmom" } }]
-					//autogenerate: { directory: 'kmom' },
 				},
 				{
-					label: 'Läromaterial',
+					label: 'Övrigt (old?)',
+					collapsed: true,
+					//autogenerate: { directory: 'ovrigt' },
+					items: [{ autogenerate: { "directory": "ovrigt" } }]
+				},
+				{
+					label: 'Läromaterial (old)',
 					collapsed: true,
 					/* autogenerate: { directory: 'laromaterial' }, */
 					items: [
@@ -95,18 +124,18 @@ export default defineConfig({
 							collapsed: true,
 							items: [{ autogenerate: { "directory": "ovning" } }]
 						},
-						{ 
-							label: 'Lab',
-							collapsed: true,
-							items: [
-								'laromaterial/lab',
-								'laromaterial/lab/lab_01/readme',
-								'laromaterial/lab/lab_02/readme',
-								'laromaterial/lab/lab_03/readme',
-								'laromaterial/lab/lab_04/readme',
-								'laromaterial/lab/readme',
-							],
-						},
+						// { 
+						// 	label: 'Lab',
+						// 	collapsed: true,
+						// 	items: [
+						// 		'laromaterial/lab',
+						// 		//'laromaterial/lab/lab_01/readme',
+						// 		'laromaterial/lab/lab_02/readme',
+						// 		'laromaterial/lab/lab_03/readme',
+						// 		'laromaterial/lab/lab_04/readme',
+						// 		'laromaterial/lab/readme',
+						// 	],
+						// },
 						{
 							label: 'Uppgift',
 							collapsed: true,
@@ -119,21 +148,6 @@ export default defineConfig({
 							items: [{ autogenerate: { "directory": "laromaterial/instruktion" } }]
 						},
 					],
-				},
-				{
-					label: 'Studieguide',
-					collapsed: true,
-					//autogenerate: { directory: 'studieguide' },
-					items: [{ autogenerate: { "directory": "studieguide" } }]
-					/* items: [
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],*/
-				},
-				{
-					label: 'Övrigt',
-					collapsed: true,
-					//autogenerate: { directory: 'ovrigt' },
-					items: [{ autogenerate: { "directory": "ovrigt" } }]
 				},
 			],
 		}),

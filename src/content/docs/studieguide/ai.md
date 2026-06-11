@@ -1,8 +1,8 @@
 ---
 title: "Att använda AI i studier och lärande" 
-description: HUr mycket bör man använda AI i sina studier?
+description: Hur mycket bör man använda AI i sina studier?
 sidebar:
-    order: 0020
+    order: 3000
 ---
 
 Jobba gärna i grupp med dina studiekompisar, men skriv alltid din egen kod för hand. Även om du tjuvkikar för att hitta bra lösningar så är det en stor skillnad att skriva koden själv jämfört med att kopiera från någon. Kopiera aldrig kod, varken från din kompis eller från en AI.

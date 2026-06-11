@@ -2,7 +2,7 @@
 title: "Fusk och medvetet vilseledande" 
 description: Man skall icke fuska.
 sidebar:
-    order: 0030
+    order: 9000
 ---
 
 Ibland kan man fundera på var gränserna går mellan fusk och att hjälpa sin nästa. Eller var gränsen går då jag funderar på att ta lite extra hjälp av en studiekompis eller min Ai-vän.

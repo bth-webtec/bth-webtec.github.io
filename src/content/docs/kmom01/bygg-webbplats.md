@@ -1,10 +1,10 @@
 ---
-title: "Bygg webbsidor med HTML, CSS och JavaScript (kmom01)" 
+title: "Uppgift: Bygg webbsidor med HTML, CSS och JavaScript" 
 description: Uppgift att bygga en webbplats i kmom01.
 revision:
     "2025-09-18": "(A) Lade till filnamnet css/style.css."
 sidebar:
-    order: 0010
+    order: 900
 ---
 
 Denna uppgift görs som en del av kmom01 och den sätter kraven för den webbplats du skall bygga.
@@ -13,10 +13,11 @@ Denna uppgift görs som en del av kmom01 och den sätter kraven för den webbpla
 
 ## Förutsättning
 
-Innan du gör uppgiften så behöver du ha jobbat igenom övningen "[Skapa en webbsida med HTML, CSS och JavaScript](/ovning/skapa-en-webbsida-med-html-css-och-javascript)" som hjälper dig att komma igång och stegvis bygga en webbplats med HTML, CSS och JavaScript.
+Innan du gör uppgiften så behöver du ha jobbat igenom övningen "[Skapa en webbsida med HTML, CSS och JavaScript](../skapa-en-webbsida-med-html-css-och-javascript)" som hjälper dig att komma igång och stegvis bygga en webbplats med HTML, CSS och JavaScript.
 
+<!--
 Du behöver också ha skapat ditt git-repo, kopplat det till kursens organisation på GitHub och du behöver ha strukturerat ditt repo på det viset som beskrivs i dokumentet "[Utvecklingsmiljö i ditt kursrepo](/laromaterial/kursrepo-utvecklingsmiljo)".
-
+-->
 
 
 ## Allmänt

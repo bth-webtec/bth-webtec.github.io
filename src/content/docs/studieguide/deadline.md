@@ -2,7 +2,7 @@
 title: "Deadline" 
 description: Hur flexibel är en deadline.
 sidebar:
-    order: 0040
+    order: 1000
 ---
 
 This is how the deadlines work in this course.
