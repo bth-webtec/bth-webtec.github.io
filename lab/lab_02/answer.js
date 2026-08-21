@@ -96,7 +96,7 @@ export function temperature (temp) {
 
 
 /**
- * Returns the action based on the incoming traffic light color.
+ * Returns the action based on the incoming traffic light color, using the if-statement.
  * If the color is "Red", return "Stop"
  * If the color is "Yellow", return "Wait"
  * If the color is "Green", return "Go"
@@ -104,7 +104,7 @@ export function temperature (temp) {
  * 
  * The check should not be case-sensitive.
  *
- * @param {number} color The color to use.
+ * @param {string} color The color to use.
  * @returns {string} The answering string.
  */
 export function trafficlight (color) {
@@ -159,7 +159,7 @@ export function fizzBuzz (value) {
  * 
  * The check should not be case-sensitive.
  *
- * @param {number} color The color to use.
+ * @param {string} color The color to use.
  * @returns {string} The answering string.
  */
 export function trafficlightSwitch (color) {
