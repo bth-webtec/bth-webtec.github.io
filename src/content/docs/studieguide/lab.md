@@ -108,7 +108,7 @@ lab
 
 Filen `.dbw.js` är en del av labbverktyget.
 
-Filen `.answer.js` innehåller lösningsförslag till labben. Titta inte i den om du verkligen inte behöver.
+Filen `.solution.js` innehåller lösningsförslag till labben. Titta inte i den om du verkligen inte behöver.
 
 För skojs skull kan du provköra och se om lösningsfilen ger rätt svar till labben.
 
