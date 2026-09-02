@@ -19,7 +19,7 @@ else
 fi
 
 # Files to download
-BASE="https://raw.githubusercontent.com/bth-webtec/website/refs/heads/main/src/content/docs/laromaterial/lab"
+BASE="https://raw.githubusercontent.com/bth-webtec/bth-webtec.github.io/refs/heads/main/lab"
 FILES=(
     "README.md"
     "lab.js"
