@@ -60,6 +60,8 @@ git push
 git push --tags
 ```
 
+Båda raderna behövs. `git push` skickar upp dina commits, men inte taggar. `git push --tags` skickar upp taggar, men flyttar inte fram din branch på GitHub. Kör du bara den ena kan antingen taggen eller din senaste kod saknas på GitHub.
+
 I framtiden kommer du (troligen) att använda versionsnummer enligt något som heter "[Semantic versioning](https://semver.org/)", kika gärna på hur det fungerar.
 
 Som ett sista steg i din inlämning så kan du kontrollera att GitHub verkligen innehåller den allra senaste versionen av din kod.
@@ -87,7 +89,13 @@ Du kan se status för körningen i GitHub Actions för ditt repo och du kan se s
 
 Du kan själv provköra och se samma resultat som rättaren ser. Det är en mycket god idé att alltid testköra sin inlämning på samma sätt som rättaren gör. Du sparar tid genom att själv upptäcka eventuella slarvfel.
 
-[Läs mer om hur du själv kan köra testerna på ditt repo](/studieguide/automatiserade-tester/).
+Gå till roten av ditt kursrepo och kör följande kommando, byt ut `kmomNN` mot det kursmoment du lämnar in, till exempel `kmom01`.
+
+```bash title="Kör de automatiserade testerna för ett kursmoment."
+npm run check kmomNN
+```
+
+[Läs mer om hur du själv kan köra testerna på ditt repo](/studieguide/automatiserade-tester/), bland annat hur du testar enskilda labbar.
 
 
 
