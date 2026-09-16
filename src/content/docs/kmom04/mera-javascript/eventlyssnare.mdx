@@ -42,18 +42,18 @@ let myContent = document.getElementById('content')
 myContent.innerHTML = "<h3>Press a letter in the word 'dbwebb':</h3>"
 
 document.addEventListener("keydown", function(event) {
-    let key = event.key // Catch the key property
+  let key = event.key // Catch the key property
 
-    switch (key) {
-        case "d":
-        case "b":
-        case "w":
-        case "e":
-            myContent.innerHTML += `<br>Good job, you pressed ${key}`
-            break
-        default:
-            myContent.innerHTML += `<br>You pressed: ${key}`
-    }
+  switch (key) {
+    case "d":
+    case "b":
+    case "w":
+    case "e":
+      myContent.innerHTML += `<br>Good job, you pressed ${key}`
+      break
+    default:
+      myContent.innerHTML += `<br>You pressed: ${key}`
+  }
 })
 ```
 
@@ -70,16 +70,16 @@ Vi behöver inte skapa en anonym funktion direkt i eventlyssnaren utan vi kan an
 function handleKey(event) {
   let key = event.key // Catch the key property
 
-    switch (key) {
-        case "d":
-        case "b":
-        case "w":
-        case "e":
-            myContent.innerHTML += `<br>Good job, you pressed ${key}`
-            break
-        default:
-            myContent.innerHTML += `<br>You pressed: ${key}`
-    }
+  switch (key) {
+    case "d":
+    case "b":
+    case "w":
+    case "e":
+      myContent.innerHTML += `<br>Good job, you pressed ${key}`
+      break
+    default:
+      myContent.innerHTML += `<br>You pressed: ${key}`
+  }
 }
 
 document.addEventListener("keydown", handleKey) 
@@ -124,10 +124,10 @@ Lite css på den skapar fina, fyrkantiga lådor.
 
 ```css title="css"
 .box {
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    background-color: yellow;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: yellow;
 }
 ```
 
