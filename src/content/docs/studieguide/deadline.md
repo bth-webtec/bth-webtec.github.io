@@ -5,50 +5,50 @@ sidebar:
     order: 1000
 ---
 
-This is how the deadlines work in this course.
+Så här fungerar deadlines i den här kursen.
 
-Plan A should always be to meet the deadlines. Create a plan B if you need to, the information below should present the guidelines for plan B.
-
-
-
-## What about a deadline in this course?
-
-If you reach the deadline - be satisfied with yourself. It's good practice to reach a deadline. It is one of the proofs one can present of doing good work. That is what is expected of you as a professional individual.
-
-I will grade the incoming submissions "within 15 work days".
+Plan A ska alltid vara att hålla deadlines. Skapa en plan B om du behöver, informationen nedan ska ge riktlinjerna för plan B.
 
 
 
-## Can you extend a deadline "for me, please"?
+## Hur funkar en deadline i den här kursen?
 
-> I have a real good excuse, can you extend the deadline for me?
+Om du hinner klart till deadline - var nöjd med dig själv. Det är bra övning att hålla en deadline. Det är ett av bevisen man kan visa upp på att man gör ett bra jobb. Det är vad som förväntas av dig som yrkesperson.
 
-No. That is unfair to the ones making the deadline and takes away the pressure and satisfaction of actually meeting a deadline.
-
-I am usually not comfortable with changing deadlines, nor extending them, so consider them as being fixed to a date and to a time.
-
-It does not depend on your excuse, it depends on my view of deadlines and how they affect the student group at large.
+Jag betygsätter inkommande inlämningar "inom 15 arbetsdagar".
 
 
 
-## What is the consequence of missing a deadline?
+## Kan du förlänga en deadline "bara för mig"?
 
-> What happens if I submit on Sunday or Monday or next Friday?
+> Jag har en riktigt bra ursäkt, kan du förlänga deadline för mig?
 
-Missing the deadline means you are sorted in another hat (or pile). All submissions in that hat are not guaranteed to be graded within 15 working days. They are graded later, or when time gets free, or when the next re-submission date is.
+Nej. Det är orättvist mot dem som klarar deadline och tar bort pressen och tillfredsställelsen av att faktiskt hålla en deadline.
 
+Jag är normalt inte bekväm med att ändra eller förlänga deadlines, så betrakta dem som fastställda till ett datum och en tid.
 
-
-## When is later?
-
-You can be sure on that it will be graded at the next deadline for re-submission. There is "always" a next date to do re-submissions.
+Det beror inte på din ursäkt, det beror på min syn på deadlines och hur de påverkar studentgruppen som helhet.
 
 
 
-## What are your recommendation?
+## Vad blir konsekvensen av att missa en deadline?
 
-Proceed with your work. Do your best. Submit when you are done, even if its is after the deadline.
+> Vad händer om jag lämnar in på söndag eller måndag eller nästa fredag?
 
-Try to improve your skills of meeting a deadline. Such skills are highly appreciated in any work environment.
+Att missa deadline innebär att du hamnar i en annan hög (eller hatt). Alla inlämningar i den högen är inte garanterade att bli betygsatta inom 15 arbetsdagar. De betygsätts senare, eller när tid frigörs, eller vid nästa omlämningsdatum.
 
-Cross your thumbs and hope for the best of grading, it might come sooner, but expect the worse if you miss the deadline.
+
+
+## När är senare?
+
+Du kan vara säker på att det blir betygsatt vid nästa deadline för omlämning. Det finns "alltid" ett nästa datum för omlämningar.
+
+
+
+## Vad rekommenderar du?
+
+Fortsätt med ditt arbete. Gör ditt bästa. Lämna in när du är klar, även om det är efter deadline.
+
+Försök förbättra din förmåga att hålla deadlines. Sådana färdigheter är mycket uppskattade i alla arbetsmiljöer.
+
+Håll tummarna och hoppas på det bästa när det gäller betygsättning - den kan komma tidigare, men förvänta dig det sämre om du missar deadline.
