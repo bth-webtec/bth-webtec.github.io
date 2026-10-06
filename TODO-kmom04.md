@@ -59,3 +59,5 @@ Innehållsgranskning 2026-08-11. Kvarstående punkter, tas en i taget.
 Åtgärdat: punkt 13 — "konkatinera arrayer:" → "Konkatenera arrayer:" i `arrays.mdx` (2026-08-11).
 
 Åtgärdat: punkt 14 — kvarglömda HTML-kommentarer borttagna ur `lab_04.md` (2026-08-11).
+
+15. Inför ht27: överväg att lägga in artikel/material om arrayer och funktioner i kmom04, gärna med en programmeringsövning med det fokuset. Inkludera problemlösning med pseudokod och flödesdiagram (se även `TODO-kmom06.md` punkt 13 om artikeln om problemlösning med krav, pseudokod och mermaid — bör samordnas så att artikeln inte skrivs två gånger) (2026-10-06).

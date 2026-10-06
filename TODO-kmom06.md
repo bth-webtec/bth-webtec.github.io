@@ -51,3 +51,5 @@ Innehållsgranskning 2026-08-11. Kvarstående punkter, tas en i taget.
 Åtgärdat: punkt 11 — "sre man små pilar" → "ser man små pilar" i `form-elements.mdx` (2026-08-11).
 
 Åtgärdat: punkt 12 — "Ge dg ... like olika" → "Ge dig ... lite olika" i `form-elements.mdx` (2026-08-11).
+
+13. Inför ht27: överväg att lägga in artikeln om problemlösning (krav → pseudokod → flödesdiagram med mermaid) i kmom06, som stöd när studenterna planerar Duckhunt. Avgör var den ska ligga (kmom06 eller `studieguide/`), och kontrollera att mermaid-diagram går att rendera i Astro/Starlight (kräver ev. ett plugin) (2026-10-06).
