@@ -29,6 +29,8 @@ Det är inte rimligt att göra tab-completion i labbarna för lösningar.
 
 Det är inte rimligt att lägga in din instruktion/källkod till ett givet kmom och be Ai att lösa uppgiften.
 
+Använd inte tekniker som ligger utanför din kompetensnivå eller som inte lärs ut i kursen. Om du gör det, se till att du är duktig på att förklara vad du gjort.
+
 Om du är stressad och pressad och har en deadline? Fundera först över om du är på rätt plats och verkligen vill det här - sen gör en ny plan för ditt lärande. Använd inte Ai för att komma i mål.
 
 ## Ai framöver
